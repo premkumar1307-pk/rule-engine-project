@@ -12,7 +12,11 @@ This project is a simple 3-tier rule engine application that evaluates user elig
 ## Getting Started
 - Clone the repository: `git clone <repository-url>`
 - Install dependencies: `pip install -r requirements.txt`
+- create an venv by: `python -m venv venv`
+- Activate venv:`venv\Scripts\activate`
+- Install some packages required:`>pip install flask flask-sqlalchemy`
 - Run the application: `python app.py`
+- To test the application:`python test_rule_evaluation.py`
 
 ## API Endpoints
 - `/create_rule`: Create a rule and return its AST.
