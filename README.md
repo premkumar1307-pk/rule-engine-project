@@ -17,6 +17,7 @@ This project is a simple 3-tier rule engine application that evaluates user elig
 - Install some packages required:`>pip install flask flask-sqlalchemy`
 - Run the application: `python app.py`
 - To test the application:`python test_rule_evaluation.py`
+- For error handling:`python test_error_handling.py`
 
 ## API Endpoints
 - `/create_rule`: Create a rule and return its AST.
